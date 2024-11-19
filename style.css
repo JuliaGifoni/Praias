@@ -1,0 +1,70 @@
+/*Abaixo estilizamos o nosso logotipo por meio do id, precisamos colocar o # antes do nome*/
+#logo{
+    /*Transforma os cantos da imagem em cantos curvos, arredondando a imagem*/
+    border-radius: 50%;
+    /*Modifica a largura do elemento*/
+    width: 5%;
+    /*Modifica a altura do elemento*/
+    height: 5%;
+}
+/*Abaixo estamos modificando todos os elementos do body que é o corpo da nossa página, sempre que queremos estilizar um elemento pelo o seu nome, colocamos apenas o nome do elemento seguido das chaves*/
+body{
+    /*Estilizar o fundo nossa página aplicando uma cor*/
+    background-color: rgb(247, 190, 183);
+    /*Modifica a fonte da letra do meu documento*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Baskerville', serif;
+}
+/*Abaixo estilizamos dois elementos do html ao mesmo tempo, usamos esta técnica quando ambos possuem as mesmas características para modificação, sempre devemos lembrar de separar os elementos por vírgula(,)*/
+img,video{
+    width: 90%;
+    height: 35%;
+}
+hr{
+    border: 1px solid;/*Define a largura a largura e o tipo de borda*/
+    border-color: rgb(224, 218, 218);/*Define a cor da borda(linha)*/
+    width: 35%;
+}
+.icone{
+    border-radius: 50%;
+    width: 7%;
+    height: 7%;
+}
+/*modificação aula 24/10*/
+/*Estilizando o elemento pelo nome do comando*/
+section{
+    background-color: rgb(240, 163, 163);
+    border: 1px solid;
+    border-color: brown;
+    margin: 2%; /*define   o espaço entre o limite da página web e os elementos contidos nela*/
+    padding: 2%; /*Define o espaço entre o conteúdo do site e o emelento em que ele stá contido*/
+}
+/*modificação aula 24/10*/
+.ladoalado{
+    display: flex; /*usa um layout flexível para alinhar os elementos*/
+    align-items: center; /*Alinhamento vertical dos itens*/
+    justify-content: center; /*Alinhamento horizontal dos itens*/
+    gap: 1rem; /*Espaço entre os elemntos*/
+}
+/*modificação aula 29/10*/
+.ladoalado2{
+    width: 100%;
+    background-color: rpg(240,163,163);
+    display: flex; /*usa um layout flexível para alinhar os elementos*/
+    position: fixed;
+    z-index: 1;
+    align-items: center; /*Alinhamento vertical dos itens*/
+    gap: 1rem; /*Espaço entre os elemntos*/
+}
+.menu-item{
+    text-decoration: none; /*Retira o traço abaixo do link*/
+    color: rgb(255, 255, 255);
+    font-weight: bold; /*Define o texto como negrito*/
+    gap: 10px;
+}
+.menu-item:hover{
+    color: brown;
+    font-size: 18px;
+}
+#inicio{
+    margin-top: 60px;
+}
